@@ -5,20 +5,22 @@ body {
     margin: 0;
     padding: 0;
 }
-.logo{
+
+.logo {
     width: 5%;
     border: 3px solid #0097b24e;
     padding: 5px 5px;
     border-radius: 5%;
-    
-   
 }
+
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #333;
+    background-color: #51b18474;
     padding: 14px 20px;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar a {
@@ -38,22 +40,52 @@ section {
     border-radius: 8px;
 }
 
-/* Header Image Styles */
+/* Image Styles */
 header {
     width: 100%;
-    height: 600px; /* Adjust the height to your preference */
+    height: 600px;
+    /* Adjust the height to your preference */
     overflow: hidden;
 }
 
 .header-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the header area */
+    object-fit: cover;
+    /* Ensures the image covers the header area */
     object-position: top;
     display: block;
 }
 
+.home-image {
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Space cards evenly */
+    flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
+}
+
+.card {
+    width: 25%;
+    text-align: center;
+    margin: 10px; /* Adds space around each card */
+}
+
+.card-img-top {
+    width: 100%; /* Adjust the size of the image */
+    height: 50%;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+    margin: 0 auto; /* Centers the image within the card */
+}
+
+
 /* Specific Section Styles */
+
 #aboutme {
     background-color: #f0f8ff;
     /* Light blue */
@@ -102,14 +134,60 @@ header {
     color: #333;
 }
 
+/* Button Styles */
+.btn {
+    display: block;
+    margin: 15px auto;
+    padding: 25px;
+    width: 500px;
+    background-color: #51b18474;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 3px 3px 6px;
+
+}
+.btn:hover{
+    background-color:#d8bfd8;
+    box-shadow:3px 3px 6px #333;
+}
+
+.btn-text {
+    color: #ffffff;
+    font-size: medium;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: n ormal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+
+}
+
 /* Additional Styles */
 h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
+h3 {
+    font: 1em;font-weight: 100;
+}
+
 p {
-    font-size: 1.2em;
+    font-size: 1em;
+    margin: 0; /* Removes default paragraph margin */
+    line-height: 1.5; /* Adjusts line spacing */
+
 }
 
 a {
@@ -119,4 +197,14 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    align-items: center; /* Aligns image and text vertically */
+}
+
+.side-image {
+    width: 150px; /* Adjust the size of the image */
+    margin-right: 20px; /* Adds space between the image and the text */
 }
