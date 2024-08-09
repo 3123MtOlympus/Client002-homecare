@@ -13,6 +13,8 @@ body {
     border-radius: 5%;
 }
 
+/* Navbar style */
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -110,7 +112,7 @@ header {
 
 .home-image {
     width: 45%;
-    margin: 0 auto;
+    margin: 100px auto;
     display: flex;
 }
 
@@ -202,6 +204,7 @@ header {
     border: 0;
     border-radius: 2px;
     box-shadow: 3px 3px 6px;
+    
 
 }
 
@@ -299,4 +302,27 @@ a:hover {
         margin-bottom: 20px;
         /* Adds space between stacked cards */
     }
+}
+
+.anonymous-review {
+    background-color: rgb(133, 194, 133);
+    border-radius: 0;
+    margin: 0;
+}
+
+#anonymous-review {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    text-shadow: 3px 3px 8px grey;
+    width: 75%;
+    margin: 0 auto;
+    font-family: "Roboto Flex", sans-serif;
+padding: 0;
+}
+
+.contact{
+    background-color: #0066cc;
+    border-radius: 0;
+    margin: 0;
 }
