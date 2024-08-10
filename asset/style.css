@@ -143,6 +143,13 @@ header {
     /* Centers the image within the card */
 }
 
+#support-img{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    padding: 20px;
+}
 
 /* Specific Section Styles */
 
@@ -419,3 +426,13 @@ a:hover {
     }
 }
 
+.intro-statement{
+    width: 50%;
+    margin: 0 auto;
+    text-align:justify;
+}
+
+.pax-support-title{
+    text-align: center;
+
+}
