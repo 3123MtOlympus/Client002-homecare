@@ -11,19 +11,53 @@
         <!-- Navbar -->
     <div class="navbar">
         <a href="index.html">Home</a>
-        <a href="aboutme.html">About Me</a>
-        <a href="aboutcaregiver.html">About Our Caregiver</a>
+        <a href="aboutme.html">About US</a>
+        <a href="aboutcaregiver.html">About Our Caregivers</a>
         <a href="process.html">The Process</a>
         <a href="services.html">Services</a>
         <a href="faq.html">FAQ</a>
         <a href="blog.html">Blog</a>
         <a href="testimonials.html">Testimonials</a>
-        <a href="contact.html">Contact Us</a>
+        <a href="#contact">Contact Us</a>
 
     </div>
 
     <h2>FAQ</h2>
     <p>Answers to common questions about services, the process, or anything else relevant.</p>
-    <a href="index.html">Back to Home</a>
+    <section class="contact" id="contact">
+        <section class="contact-section">
+            <div class="contact-container">
+
+                <!-- Brief Paragraph Card -->
+                <div class="contact-info-card">
+                    <h3>Get in Touch</h3>
+                    <hr>
+                    <p>
+                        We're here to help with any questions or concerns you may have. Whether you're interested in our services or just want to chat, we'd love to hear from you. Reach out to us anytime!
+                    </p>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Contact Us</h3>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+        </section>
+        
+
+    </section>
 </body>
 </html>

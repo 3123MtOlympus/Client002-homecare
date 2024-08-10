@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #51b18474;
+    background-color: #51b184a6;
     padding: 14px 20px;
     position: fixed;
     width: 100%;
@@ -134,7 +134,7 @@ header {
 .card-img-top {
     width: 100%;
     /* Adjust the size of the image */
-    height: 150px;
+    height: 250px;
     border-radius: 50%;
     /* Makes the image circular */
     object-fit: cover;
@@ -418,3 +418,4 @@ a:hover {
         width: 100%;
     }
 }
+
