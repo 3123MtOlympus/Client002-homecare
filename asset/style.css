@@ -151,6 +151,15 @@ header {
     padding: 20px;
 }
 
+#support-img:hover{
+    width: 38%;
+  
+}
+
+.support-img-section{
+    margin-top: 250px;
+}
+
 /* Specific Section Styles */
 
 #aboutme {
