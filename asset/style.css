@@ -126,9 +126,13 @@ header {
 
 .card {
     width: 18rem;
-    text-align: center;
+    text-align: justify;
     margin: 10px;
     /* Adds space around each card */
+}
+
+.card-title {
+    text-align: center;
 }
 
 .card-img-top {
@@ -143,7 +147,7 @@ header {
     /* Centers the image within the card */
 }
 
-#support-img{
+#support-img {
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -151,12 +155,12 @@ header {
     padding: 20px;
 }
 
-#support-img:hover{
+#support-img:hover {
     width: 38%;
-  
+
 }
 
-.support-img-section{
+.support-img-section {
     margin-top: 250px;
 }
 
@@ -251,6 +255,21 @@ header {
 
 }
 
+.btnABC {
+    background-color: #0057b331;
+    width: 15%;
+    border-radius: 2px;
+    border: 0;
+    padding: 8px;
+    margin: 50 auto;
+
+}
+
+.btnABC:hover {
+    background-color: rgba(181, 181, 13, 0.634);
+}
+
+
 /* Additional Styles */
 h2 {
     font-size: 3em;
@@ -329,7 +348,7 @@ a:hover {
 
 #anonymous-review {
     color: white;
-    text-align: left;
+    text-align: justify;
     font-size: 30px;
     text-shadow: 3px 3px 8px grey;
     width: 75%;
@@ -419,8 +438,9 @@ a:hover {
     background-color: #0056b3;
 }
 
-.contact-title{
-    text-align: center;margin: 250px 0;
+.contact-title {
+    text-align: center;
+    margin: 250px 0;
 }
 
 /* Responsive Design */
@@ -435,13 +455,25 @@ a:hover {
     }
 }
 
-.intro-statement{
+.intro-statement {
     width: 50%;
     margin: 0 auto;
-    text-align:justify;
+    text-align: justify;
 }
 
-.pax-support-title{
+.pax-support-title {
     text-align: center;
 
+}
+
+.about-caregiver-title,
+.process-title {
+    margin: 10px;
+}
+
+.about-caregiver-p,
+.process-p {
+    margin: 15px auto;
+    width: 75%;
+    text-align: justify;
 }
